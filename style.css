@@ -1,0 +1,267 @@
+body{background-color: #cfd6f0;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #0A3871;
+    opacity: 1; /* Firefox */}
+
+
+.contenedorPrincipal {
+    
+    background-repeat: repeat;
+    position: absolute;
+    height: 100%;
+    width: 95%;
+    background: #F3F5FC;
+
+    
+}
+
+.boxLogo {
+    
+    position: absolute;
+    width: 160px;
+    height: 100px;;
+    display: inline-block;
+    margin-top:40px;}
+
+.logoAlura{    
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.areaTextual{
+    
+    margin-top: 168px;
+    margin-left: 20%;
+    position: absolute;
+    display: inline-block;
+    height:401px ;  
+    width: 80%x;
+}
+
+.texto {    
+    width: 100%;
+    height: 400px;
+    font-family: 'Arial';
+    color:#0A3871;
+    font-size: 32px;
+    border: 0px;
+    background-color:#f3f5fcc2;
+    resize: none;
+    outline: none;
+}
+
+.texto2 {
+   
+    margin:35px 10px 10px 10px;
+    display:inline-block;   
+    width: 90%;/*400px*/
+    height: 400px;
+    font-family: 'Arial';
+    color:#0A3871;
+    font-size: 32px;
+    border: 0px;
+    background-color:#f3f5fcd8;
+    resize: none;
+    outline: none;
+    z-index: 0;
+}
+
+
+
+.cuadradoDerecha {  
+    
+    /*background-image: url("file:///C:/Users/hernan/Desktop/alura/Challenge/Munheco.png");*/
+    position:absolute;
+    display: inline;
+    width: 20%;/*400px*/
+    height: 90%;
+    margin-top: 40px;
+    margin-left: 70%;
+
+   
+    
+    /* White */
+    
+
+    /* shadow */
+    
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+
+
+  .testSeccion{z-index: 1000;
+    position: absolute;
+    margin-left: 100px;}
+.cajaBotones{
+    position: absolute;
+    margin-top:45%;
+margin-left: 10%;}
+
+.boton1{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    
+    /* Light gray */
+    
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+    
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;}
+
+    .boton1{
+        box-sizing: border-box;
+        color: white;
+        /* Auto layout */
+        text-align: center;
+        display: inline-block;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px;
+        
+        position: static;
+        width: 328px;
+        height: 67px;
+        left: 352px;
+        top: 0px;
+        
+        /* Light gray */
+        
+        background: #0A3871;
+        /* Dark blue/dark-blue-300 */
+        
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 24px;}
+.boton2{
+            box-sizing: border-box;
+        
+            /* Auto layout */
+            color: #0A3871;
+            text-align: center;
+            display: inline-block;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 24px;
+            
+            position: static;
+            width: 328px;
+            height: 67px;
+            left: 352px;
+            top: 0px;
+            
+            /* Light gray */
+            
+            background: #D8DFE8;
+            /* Dark blue/dark-blue-300 */
+            
+            border: 1px solid #0A3871;
+            border-radius: 24px;
+            
+            /* Inside auto layout */
+            
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin: 0px 24px;}
+.boton3{
+                box-sizing: border-box;
+            
+                /* Auto layout */
+                color: #0A3871;
+                text-align: center;
+                display: inline-block;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 24px;
+                
+                position: static;
+                width: 328px;
+                height: 67px;
+                left: 352px;
+                top: 0px;
+                
+                /* Light gray */
+                
+                background: white;
+                /* Dark blue/dark-blue-300 */
+                
+                border: 1px solid #0A3871;
+                border-radius: 24px;
+                
+                /* Inside auto layout */
+                
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+        }
+
+
+.munheco{
+    margin-top: 243px;
+    margin-left: 32px;
+}
+
+.noMensajeFound{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    
+    text-align: center;
+    
+    /* Gray/gray-500 */
+    
+    color: #343A40;
+}
+
+.ingreseTexto {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    
+    text-align: center;
+}
+
+
+.contenedorRenovable{
+  
+}
